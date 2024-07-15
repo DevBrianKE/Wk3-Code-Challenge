@@ -36,3 +36,27 @@ function renderList() {
 
 
 
+// Function to add a new item to the list
+function addItem(event) {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+
+    // Get the input field element where the user enters the item name
+    const itemInput = document.getElementById('item-input');
+
+    // Create a new item object
+    const newItem = {
+        name: itemInput.value,
+        completed: false
+    };
+
+    // Add the new item object to the shoppingListArray
+    shoppingListArray.push(newItem);
+
+    // Clear the input field after adding the item
+    itemInput.value = '';
+
+    // Call the renderList function to update the shopping list
+    renderList();
+}
+
