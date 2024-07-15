@@ -1,5 +1,5 @@
 body {
-    background-color: #a7a7a7;
+    background-color: #555;
     width: 600px;
     margin: 0 auto;
     padding: 0;
@@ -13,6 +13,11 @@ form {
 
 input[type="text"] {
     background-color: bisque;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 50%; 
 }
 
 button {
@@ -23,7 +28,8 @@ button {
 
 h1 {
     color: darkgoldenrod;
-    font-size: 50px;
+    font-size: 43px;
+    font-weight: bolder;
 }
 
 h2 {
