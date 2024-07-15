@@ -4,20 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Shopping List</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
     <h1>Interactive Shopping List</h1>
     <form id="addItemForm">
         <label for="item-input">Add Item</label>
         <input type="text" id="item-input" name="item" required>
-        <button id="addItemButton" type="button">Add</button>
-        <button id="clearListButton" type="button">Clear List</button>
+        <button id="addItem" type="submit">Add</button>
     </form>
     <h2>Shopping List</h2>
-    <ul id="shoppingList" class="list">
-        
-    </ul>
+    <ul id="shoppingList" class="list"></ul>
+    <button id="clearList">Clear List</button>
 
     <script src="index.js"></script>
 </body>

@@ -1,43 +1,46 @@
 body {
-    background-color: rgb(243, 184, 245);
+    background-color: #a7a7a7;
     width: 600px;
     margin: 0 auto;
     padding: 0;
     font-family: monospace, 'cursive';
 }
+
 form {
     color: darkblue;
     font-size: 22px;
 }
-input[type="text"]{
+
+input[type="text"] {
     background-color: bisque;
 }
-#addNeed {
-    background-color: bisque;
-    color: darkblue;
-}
-#addHave {
+
+button {
     background-color: bisque;
     color: darkblue;
+    margin-left: 10px;
 }
+
 h1 {
     color: darkgoldenrod;
     font-size: 50px;
 }
+
 h2 {
     color: darkgoldenrod;
     font-size: 42px;
     letter-spacing: -2px;
     text-align: left;
 }
+
 .list {
     color: #555;
     font-size: 22px;
-    padding: 0 !important; 
+    padding: 0 !important;
     width: 500px;
     border: 1px solid #dedede;
-    
 }
+
 .list li {
     list-style: none;
     background-color: rgb(242, 188, 122);
@@ -47,10 +50,31 @@ h2 {
     padding: 10px;
     text-transform: capitalize;
     color: darkblue;
+    cursor: pointer;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #999;
 }
 
 li a {
     float: right;
     text-decoration: none;
     color: red;
+}
+
+#clearList {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#clearList:hover {
+    background-color: #c82333;
 }
