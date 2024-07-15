@@ -8,13 +8,20 @@
 </head>
 <body>
     <h1>Interactive Shopping List</h1>
+
+    <!-- Form to add new items -->
     <form id="addItemForm">
         <label for="item-input">Add Item</label>
         <input type="text" id="item-input" name="item" required>
         <button id="addItem" type="submit">Add</button>
     </form>
+
     <h2>Shopping List</h2>
+
+    <!-- Container for the shopping list items -->
     <ul id="shoppingList" class="list"></ul>
+
+    <!-- Button to clear the shopping list -->
     <button id="clearList">Clear List</button>
 
     <script src="index.js"></script>
