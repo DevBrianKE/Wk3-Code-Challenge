@@ -8,8 +8,16 @@
 </head>
 <body>
     <h1>Shopping List</h1>
-    <form action=""></form>
-    
+    <form action="add" method="get">
+        <label for="">Add Item</label>
+        <input type="text" name="Item">
+        <input id="addNeed" type="submit" value="Need">
+        <input id="addHave" type="submit" value="Have">   
+    </form>
+    <h2>Need</h2>
+    <ul class="=List">
+        <li><input type="checkbox" name="Item">Milk</li>
+    </ul>
 
     <script src="index.js"></script>
 </body>
