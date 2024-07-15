@@ -1,4 +1,4 @@
-# Wk3-Code-Challenge-Interactive Shopping List
+# Interactive Shopping List README
 
 ## Overview
 
@@ -22,13 +22,16 @@ The goal of this project was to create a functional web application where users 
 3. **Clear List:**
    - Clicking the "Clear List" button removes all items from the shopping list.
 
-## Bonus Features (Not Implemented but very soon)
+## Screenshots
 
-- **Edit Existing Items:**
-  - There was an initial plan to allow users to edit the names of existing items directly within the list.
-  
-- **Persistence Using Local Storage:**
-  - Another future enhancement could include using local storage to save the shopping list, allowing it to persist across page reloads.
+### Before Adding Items
+![Before Adding Items](screenshots/screenshot-1.png)
+
+### After Adding Items
+![After Adding Items](screenshots/screenshot-2.png)
+
+### Item Marked as Purchased
+![Item Marked as Purchased](screenshots/screenshot-3.png)
 
 ## Technical Details
 
@@ -51,6 +54,10 @@ For future iterations of this project, I plan to:
 - Implement editing functionality for existing items.
 - Explore local storage to persist the shopping list data.
 
+## Credits
+
+- This project was completed as part of a coding challenge to practice foundational web development skills.
+- Special thanks to [Instructor's Name/Team] for guidance and support during the learning process.
 
 ## License
 
@@ -58,4 +65,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Feedback
 
-Feedback and suggestions for improvement are always welcome. Feel free to reach out to me via mattermost with any insights or questions.
+Feedback and suggestions for improvement are always welcome. Feel free to reach out to me via [Your Email] with any insights or questions.
