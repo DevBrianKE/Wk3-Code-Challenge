@@ -60,3 +60,11 @@ function addItem(event) {
     renderList();
 }
 
+// Function to clear the list
+function clearList() {
+    // Clear all items from the shoppingListArray
+    shoppingListArray = [];
+
+    // Call renderList function to update the displayed shopping list
+    renderList();
+}
