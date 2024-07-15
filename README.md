@@ -60,4 +60,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Feedback
 
-Feedback and suggestions for improvement are always welcome. Feel free to reach out to me via [Your Email] with any insights or questions.
+Feedback and suggestions for improvement are always welcome. Feel free to reach out to me via mattermost with any insights or questions.
