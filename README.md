@@ -25,13 +25,13 @@ The goal of this project was to create a functional web application where users 
 ## Screenshots
 
 ### Before Adding Items
-![Before Adding Items](screenshots/Screenshot-1.png)
+![Screenshot 10](Screenshots/Screenshot%20(10).png)
 
 ### After Adding Items
-![After Adding Items](screenshots/Screenshot-2.png)
+![Screenshot 11](Screenshots/Screenshot%20(11).png)
 
 ### Item Marked as Purchased
-![Item Marked as Purchased](screenshots/Screenshot-3.png)
+![Screenshot 12](Screenshots/Screenshot%20(12).png)
 
 ## Technical Details
 
