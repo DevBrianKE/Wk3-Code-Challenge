@@ -68,3 +68,9 @@ function clearList() {
     // Call renderList function to update the displayed shopping list
     renderList();
 }
+
+// Event listener for form submission to add an item
+document.getElementById('addItemForm').addEventListener('submit', addItem);
+
+// Event listener for button click to clear the list
+document.getElementById('clearList').addEventListener('click', clearList);
