@@ -3,30 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping List</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Interactive Shopping List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Shopping List</h1>
-    <form action="add" method="get">
-        <label for="">Add Item</label>
-        <input type="text" name="Item">
-        <input id="addNeed" type="submit" value="Need">
-        <input id="addHave" type="submit" value="Have">   
+    <h1>Interactive Shopping List</h1>
+    <form id="addItemForm">
+        <label for="item-input">Add Item</label>
+        <input type="text" id="item-input" name="item" required>
+        <button id="addItemButton" type="button">Add</button>
+        <button id="clearListButton" type="button">Clear List</button>
     </form>
-    <h2>Need</h2>
-    <ul class="list">
-        <li><input type="checkbox" name="Item">Milk  <a href="#">&#10006;</a> </li>
-        <li><input type="checkbox" name="Item">Eggs  <a href="#">&#10006;</a> </li>
-        <li><input type="checkbox" name="Item">Chicken  <a href="#">&#10006;</a> </li>
-        <li><input type="checkbox" name="Item">Potato  <a href="#">&#10006;</a> </li>
-    </ul>
-    <h2>Have</h2>
-    <ul class="list">
-        <li><input type="checkbox" name="Item" checked>Cream  <a href="#">&#10006;</a> </li>
-        <li><input type="checkbox" name="Item" checked>Cheese  <a href="#">&#10006;</a> </li>
-        <li><input type="checkbox" name="Item" checked>Mango  <a href="#">&#10006;</a> </li>
-        <li><input type="checkbox" name="Item" checked>Steak  <a href="#">&#10006;</a> </li>
+    <h2>Shopping List</h2>
+    <ul id="shoppingList" class="list">
+        
     </ul>
 
     <script src="index.js"></script>
