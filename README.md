@@ -54,11 +54,6 @@ For future iterations of this project, I plan to:
 - Implement editing functionality for existing items.
 - Explore local storage to persist the shopping list data.
 
-## Credits
-
-- This project was completed as part of a coding challenge to practice foundational web development skills.
-- Special thanks to [Instructor's Name/Team] for guidance and support during the learning process.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
